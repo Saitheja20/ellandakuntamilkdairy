@@ -1,0 +1,114 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+   
+
+  
+}
+.bookdemo{
+position: fixed;
+float: left;
+margin-top: 200px;
+
+width: 60px;
+height: 100px;
+background-color: rgba(75, 251, 0, 0.941);
+color: rgb(16, 5, 15);
+font-weight: bold;
+font-size: large;
+text-decoration: wavy
+
+}
+
+.topbar{
+    
+    background-color: rgb(161, 195, 243);
+    width:auto;
+    min-width: max-content;
+    font-weight: bold;
+}
+
+.topright{
+    margin-right: 50px;
+    position: inherit;
+    flex-flow: left;
+    
+}
+.topleft{
+    margin-left: 50px;
+}
+
+.addressbaricon{
+    margin-left: 50px;
+}
+
+.logo{
+    /*background-image: url('logobg.png');
+    background-repeat: repeat-x;    */
+    background-color: rgb(0,44,106);
+    background-repeat: repeat;
+    text-align: center;
+    border-style: solid;
+}
+
+.logosymbol{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.ul .li{
+    list-style: none ;
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.menuitems{
+    background-image: url('milkbgimg.png');
+    background-size: cover;
+
+}
+
+
+.abt{
+ 
+    float: right;
+    color: black;
+    opacity: 0.9;
+   
+}
+.abt .parag{
+    background-image: url('milkbanner2.png');
+    padding-left: 40px;
+    text-align: justify;
+   color: black;
+    font-weight: bold;
+    opacity: 0.9;
+    
+   
+}
+
+.abt .heading{
+    color: rgb(0,44,106);
+    font-weight: bold;
+    padding-right:300px;
+    opacity: 0.9;
+    
+}
+
+.milkbanner1{
+   /* margin-top: -390px;
+    float: left;
+    width: fit-content;
+    height: 500px;*/
+    width: 1460px;
+    height: 400px;
+    margin-top: -295px;
+    
+}
+
+.menuheads{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(238, 9, 9);
+}
