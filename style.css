@@ -1,32 +1,42 @@
-body{
-
-    margin: 0px;
-    padding: 0px;
-   
-
-  
+.body{
+   background-color: rgb(250, 237, 222);
+    margin: 0%;
+    padding: 0%;
 }
+.visitbut{
+display: flex;
+flood-opacity: 0.9;
+float: left;
+}
+
 .bookdemo{
 position: fixed;
-float: left;
-margin-top: 200px;
+writing-mode: vertical-lr;
+/*margin-top: 10%;
 
-width: 60px;
-height: 100px;
+*/
+margin-top: 150px;
+margin-left: 0%;
+opacity: 0.9;
+width: 25px;
+height: fit-content;
 background-color: rgba(75, 251, 0, 0.941);
 color: rgb(16, 5, 15);
+font-style: italic;
 font-weight: bold;
-font-size: large;
-text-decoration: wavy
-
 }
 
-.topbar{
+.topbars{
     
-    background-color: rgb(161, 195, 243);
-    width:auto;
-    min-width: max-content;
+    background-color: rgb(83, 141, 222);
+    width:100%;
     font-weight: bold;
+    display: grid;
+    grid-template-columns: -1fr 1fr 2fr;
+    
+    /*justify-content: center;/*space-around or space-betweenor  stretch 
+    align-items: center;*/
+
 }
 
 .topright{
@@ -45,11 +55,15 @@ text-decoration: wavy
 
 .logo{
     /*background-image: url('logobg.png');
-    background-repeat: repeat-x;    */
+    background-repeat: repeat-x;   
     background-color: rgb(0,44,106);
     background-repeat: repeat;
+    
+     width: 100%;
     text-align: center;
     border-style: solid;
+    display: block;
+     */
 }
 
 .logosymbol{
@@ -60,7 +74,15 @@ text-decoration: wavy
 .ul .li{
     list-style: none ;
     display: inline-block;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+.ull .lil{
+    list-style: none ;
+    display: inline-block;
     padding: 0px 50px;
+    font-weight: bold;
 }
 
 .menuitems{
@@ -69,21 +91,27 @@ text-decoration: wavy
 
 }
 
+.container1{
+    background-image: url('milkbgimg4.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: fit-content;
+    
+}
 
 .abt{
- 
-    float: right;
+    padding-left: 25%;
     color: black;
     opacity: 0.9;
    
 }
 .abt .parag{
-    background-image: url('milkbanner2.png');
-    padding-left: 40px;
+    justify-content: inherit;
+    padding-left: 3%;
     text-align: justify;
-   color: black;
+    color: black;
     font-weight: bold;
-    
+ 
     
    
 }
@@ -92,7 +120,7 @@ text-decoration: wavy
     color: rgb(0,44,106);
     font-weight: bold;
     padding-right:300px;
-    opacity: 0.9;
+  
     
 }
 
@@ -101,7 +129,7 @@ text-decoration: wavy
     float: left;
     width: fit-content;
     height: 500px;*/
-    width: 1460px;
+    width: 100%;
     height: 400px;
     margin-top: -295px;
     
@@ -111,4 +139,100 @@ text-decoration: wavy
     text-align: center;
     font-weight: bold;
     color: rgb(238, 9, 9);
+}
+
+.container{
+    border-color: red;
+    font-weight: bold;
+    border-color:black;
+    
+}
+
+.row{
+    color: rgb(26, 26, 30);
+}
+
+.col{
+    font-style: italic;   
+}
+
+.headings{
+    color: rgba(255, 0, 0, 0.981);
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 200px;
+}
+
+.gap{
+    
+}
+
+.containert{
+    text-align: left;
+}
+
+.p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.produc{
+    background-color: bisque;
+}
+
+.footers{
+    background-color: rgb(30,30,30);
+}
+
+.containerfoot{
+    margin-top: 50px;
+}
+
+.ft{
+    margin-left: 50px;
+    color: red;
+}
+
+.fc{
+    margin-left: 40px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.copyrights12{
+    background-color: black;
+    color: white;
+}
+
+.cptxt{
+    font-weight: bold;
+}
+
+.col2-1{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.col2-2{
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+.uls .lis{
+    list-style: none ;
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: bold;
 }
