@@ -113,21 +113,31 @@ font-weight: bold;
    
 }
 .abt .parag{
-    justify-content: inherit;
+    display: block;
     padding-left: 3%;
-    text-align: justify;
+    text-align: left;
     color: black;
     font-weight: bold;
  
     
    
 }
-
-.abt .heading{
-    color: rgb(0,44,106);
-    font-weight: bold;
-    padding-right:300px;
+.navbar{
+    background-color: rgb(0,44,106);
+}
+.navbar-brand{
+    color: white;
+    padding: 0 30px 0 70px;
   
+    font-weight: bold;
+   font-family: cursive;
+}
+.abt .heading{
+    color: rgb(0, 0, 248);
+    font-weight: bold;
+    /* padding-right:300px; */
+  text-align: left;
+  display: inline;
     
 }
 
@@ -167,7 +177,9 @@ font-weight: bold;
     color: rgba(255, 0, 0, 0.981);
     text-align: center;
 }
-
+.card{
+    margin: 10px 0 10px 0;
+}
 .card-title{
     text-align: center;
 }
@@ -186,7 +198,7 @@ font-weight: bold;
 }
 
 .containert{
-    text-align: left;
+    text-align: center;
 }
 
 .p{
