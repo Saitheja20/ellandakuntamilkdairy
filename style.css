@@ -1,15 +1,28 @@
+@media screen and (min-width: 990px) and (max-width: 1700px) {
+    .fssailgscreen {
+        margin-top: 200px;
+    }
+    body {
+        background-color: aqua;
+    }
+}
+
+
 .body{
    background-color: rgb(250, 237, 222);
     margin: 0%;
     padding: 0%;
-    padding: 0%;
+    padding: 0%;  
 }
 .visitbut{
 display: flex;
 flood-opacity: 0.9;
 float: left;
 }
-
+a:hover{
+    opacity: 100%;
+    transform: scale(1.13);
+}
 .bookdemo{
 /*position: fixed;
 writing-mode: vertical-lr;
@@ -24,7 +37,7 @@ right: 0%;
 writing-mode: vertical-lr;
 opacity: 0.9;
 width: 30px;
-height: fit-content;
+height: fit-;
 background-color: rgba(75, 251, 0, 0.941);
 color: rgb(16, 5, 15);
 font-style: italic;
@@ -254,4 +267,15 @@ font-weight: bold;
     display: inline-block;
     padding: 0px 10px;
     font-weight: bold;
+}
+
+.bgimo{
+    background-image: url('3417908.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counterbg{
+    background-image: url('3417908.jpg');
+    padding: 20px 0 20px 0;
 }
