@@ -23,7 +23,11 @@ bottom: 200px;
 right: 0%;
 writing-mode: vertical-lr;
 opacity: 0.9;
+
 width: 30px;
+
+width: 35px;
+
 height: fit-content;
 background-color: rgba(75, 251, 0, 0.941);
 color: rgb(16, 5, 15);
