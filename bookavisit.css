@@ -1,3 +1,43 @@
+
+.body{
+    background-image: url('bookvisitbg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.h1{
+    color: red;
+    text-align: center;
+}
+.card{
+    opacity: 0.9;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 30%;
+   /* padding: 10% 0% 0% 10%;*/
+    text-align: center;
+    border: dotted solid 5px;
+    width: 500px;
+    height: 400px;
+}
+.formelements{
+    text-align: center;
+    color: rgb(51, 0, 255);
+}
+
+.btn{
+    background-color: green;
+}
+a{
+    text-decoration: none;
+}
+
+.home{
+    color: red;
+    text-align: center;
+}
+
+
 .body{
     background-image: url('bookvisitbg.png');
     background-size: 100%;
@@ -35,4 +75,5 @@ a{
     color: red;
     text-align: center;
 }
+
 

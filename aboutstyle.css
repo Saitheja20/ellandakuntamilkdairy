@@ -1,3 +1,89 @@
+
+.topbar{
+    
+    background-color: rgb(161, 195, 243);
+    width:100%;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: -1fr 1fr 2fr;
+    
+    /*justify-content: center;/*space-around or space-betweenor  stretch 
+    align-items: center;*/
+
+}
+
+.menuitems{
+    background-image: url('milkbgimg.png');
+    background-size: cover;
+
+}
+
+.topright{
+    margin-right: 50px;
+    position: inherit;
+    flex-flow: left;
+    
+}
+.topleft{
+    margin-left: 50px;
+}
+
+.addressbaricon{
+    margin-left: 50px;
+}
+
+
+.logosymbol{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.ul .li{
+    list-style: none ;
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.container{
+    text-align: center;
+}
+
+.parag{
+    font-weight: bold;
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+    text-align: center;
+}
+
+
+.card-header{
+    color: red;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.footers{
+    background-color: bisque;
+}
+
+.containerfoot{
+    margin-top: 50px;
+}
+
+.ft{
+    margin-left: 50px;
+    color: red;
+}
+
+.fc{
+    margin-left: 40px;
+    font-weight: bold;
+}
+
 .topbar{
     
     background-color: rgb(161, 195, 243);
@@ -81,3 +167,4 @@
     margin-left: 40px;
     font-weight: bold;
 }
+
